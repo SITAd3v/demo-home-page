@@ -1,0 +1,72 @@
+github - Remote repository
+git (download and install) - Local repository (laptop)
+
+
+In command prompt:
+------------------
+dir  - displays all files in the directory.
+* Check whether we have our remote repository (for ex. Shravan in GitHub)
+
+cd dir  - To enter repository (so that we can access and work with files)
+
+
+git push - to upload file from local to remote repository
+git clone / git pull - to download /take from remote repository to local repository. (git clone <url>)
+
+File modification:
+------------------
+If file is modified, then (Add the file to tracking.)
+git add .    -Add all the files to directory
+git add <file name>  - Add the particular file to directory.
+git commit -m "message/info abt file"   -(Save the changes to file)
+
+(To untrack the file)
+git 
+
+
+if once git is cloned, then no need for internet connection. All changes can be made without internet.
+
+
+Git Commands:
+-------------
+git status
+
+
+
+Access to companies GITHUB account:
+-----------------------------------
+
+Clone the repository. Now it becomes local repository.
+For Cloning:   git clone <url>
+	1. Choose the repository/folder to be copied from remote repository.
+	2. <>code is highlighted in green. Click and copy the url under that.
+Enter the url in clone command.
+
+
+Creating branches for existing repository:
+------------------------------------------
+
+Open text / code editor (Visual Studio Code)
+File option----->  Open folder (Choose repository from local).
+	It displays the list of files available in remote repository.
+	
+	In bottom left we find main. Click on the main. 
+	Create new branch option will open on top search bar. Now enter a branch name (file name) in that.
+	Now it is shown on the left bottom (instead of main). All the files from remote repository is taken as a copy under that name.
+
+	Making changes:
+	---------------
+	Choose the file to change the features. Alter the details and save.
+	The changes will happen only in branch folder and not in main.
+	
+	Notification is shown on left side. Click on that. Enter a messaage and click on commit.
+	Click on Publish branch. So that it will be saved in remote repository.
+
+Close folder using file option.
+Open and check remote repository.
+
+
+
+
+
+
